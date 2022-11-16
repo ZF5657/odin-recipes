@@ -1,0 +1,53 @@
+body {
+    text-align: center;
+    font-size: 19px;
+    font-family: Andale Mono, monospace;
+}
+
+h3 {
+    margin-top: 5em;
+    margin-bottom: 2em;
+}
+
+p {
+    margin-bottom: .5em;
+}
+
+ul {
+   display: inline-block;
+   list-style-position: inside;
+}
+
+ol {
+    list-style-position: inside;
+    text-align: left;
+}
+
+li {
+    margin: 10px;
+}
+
+#mainmenu li {
+    display: inline-block;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 2em;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-left: 50px;
+ }
+
+ button {
+    border-radius: 8px;
+    border: none;
+    background-color: #19740d;
+    color: white;
+    font-size: 18px;
+    padding: 10px 18px;
+    text-align: center;
+    transition: transform .4s ease-in-out;
+  }
+  
+  button:hover {
+    transform: scale(1.2)
+  }
